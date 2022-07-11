@@ -15,7 +15,7 @@ public class OwnersReader {
                 owners[i].setAge(ownersLine[2]);
                 owners[i].setAddress(ownersLine[3]);
                 owners[i].setPhone(ownersLine[4]);
-                System.out.printf("\n"+owners[i].lastName,owners[i].firstName,owners[i].age,
+                System.out.printf(owners[i].lastName,owners[i].firstName,owners[i].age,
                                   owners[i].address,owners[i].phone);
                 }
             return owners;
